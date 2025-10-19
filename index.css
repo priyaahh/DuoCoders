@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --success: 142.1 70.6% 45.3%;
+  --success-foreground: 144.9 80.4% 10.2%;
+
+  --warning: 38 92% 50%;
+  --warning-foreground: 20.5 90.2% 10.2%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 221.2 83.2% 53.3%;
+
+  --radius: 0.75rem;
+
+  --sidebar-background: 210 20% 98%;
+  --sidebar-foreground: 222.2 47.4% 11.2%;
+  --sidebar-primary: 221.2 83.2% 53.3%;
+  --sidebar-primary-foreground: 210 40% 98%;
+  --sidebar-accent: 210 40% 96.1%;
+  --sidebar-accent-foreground: 222.2 47.4% 11.2%;
+  --sidebar-border: 214.3 31.8% 91.4%;
+  --sidebar-ring: 221.2 83.2% 53.3%;
+
+  --chart-1: 221.2 83.2% 53.3%;
+  --chart-2: 142.1 70.6% 45.3%;
+  --chart-3: 38 92% 50%;
+  --chart-4: 291.1 70.2% 52.1%;
+  --chart-5: 24.6 95% 53.1%;
+
+  --gradient-primary: linear-gradient(135deg, hsl(221.2 83.2% 53.3%) 0%, hsl(291.1 70.2% 52.1%) 100%);
+  --gradient-accent: linear-gradient(135deg, hsl(142.1 70.6% 45.3%) 0%, hsl(38 92% 50%) 100%);
+  --gradient-soft: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(210 40% 96.1%) 100%);
+
+  --shadow-soft: 0 4px 16px -4px hsl(220 14% 96%);
+  --shadow-medium: 0 8px 24px -6px hsl(220 14% 90%);
+  --shadow-strong: 0 16px 40px -8px hsl(220 14% 80%);
+}
+
+.bg-gradient-primary { background-image: var(--gradient-primary); }
+.bg-gradient-accent { background-image: var(--gradient-accent); }
+.bg-gradient-soft { background-image: var(--gradient-soft); }
+
+.shadow-soft { box-shadow: var(--shadow-soft); }
+.shadow-medium { box-shadow: var(--shadow-medium); }
+.shadow-strong { box-shadow: var(--shadow-strong); }
